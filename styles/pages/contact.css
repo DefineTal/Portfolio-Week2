@@ -1,0 +1,133 @@
+header {
+  background-color: #ffb6b6;
+  padding: 16px;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  header .logo-name {
+    margin-bottom: 48px;
+  }
+}
+header .logo-name img {
+  width: 100px;
+}
+header .logo-name .name {
+  font-size: 32px;
+}
+header .logo-name .name .coder-text {
+  color: #45a7c5;
+}
+header .logo-name .name .academy-text {
+  color: #1c3c5c;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  header .logo-name .name {
+    margin-bottom: 0;
+  }
+  header #nav-items {
+    width: 50%;
+  }
+}
+#nav-items {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+#nav-items a {
+  -webkit-text-decoration: none color rgb(21, 21, 255);
+          text-decoration: none color rgb(21, 21, 255);
+}
+
+footer {
+  background-color: #ffb6b6;
+  padding: 16px;
+  text-align: center;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 32px;
+}
+footer .social-media a i {
+  color: rgba(22, 21, 21, 0.664);
+  font-size: 24px;
+}
+footer .info {
+  color: rgba(22, 21, 21, 0.664);
+}
+
+@media screen and (min-width: 600px) {
+  footer .social-media {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+body {
+  margin: 0;
+  background-color: #a5a5a5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+main form .form-elements {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+main form .form-elements label {
+  font-size: 1.2rem;
+}
+main form .form-elements .form-input {
+  border: 1px solid #ffb6b6;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1.2rem;
+}
+main form .form-elements .form-input#form-textarea {
+  resize: none;
+}
+main form .form-elements .form-input:not(#form-textarea) {
+  height: 35px;
+}
+main form .form-elements .form-input:focus {
+  box-shadow: 0 0 10px #ffb6b6;
+}
+main form .btn-div {
+  text-align: center;
+}
+main form .btn-div #submit {
+  height: 40px;
+  background-color: #ffb6b6;
+  border: none;
+  min-width: 120px;
+  font-size: 1.2rem;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 600px) {
+  main form {
+    width: 500px;
+  }
+  main form .form-elements {
+    flex-direction: row;
+  }
+  main form .form-elements .form-input {
+    width: 70%;
+  }
+}/*# sourceMappingURL=contact.css.map */
